@@ -174,7 +174,7 @@ doc
 ## 把本地仓库同步到GitHub
 
 git remote -v 查看远程版本库信息
-git remote add githup <url> 添加githup远程版本库
+git remote add remoteName  <url> 添加githup远程版本库
 git fetch githup 拉取远程版本库
 git merge --allow-unrelated-histories githup/master 合并githup上的master分支（两分支不是父子关系，所以合并需要添加 --allow-unrelated-histories）
 git push githup master推送同步到githup仓库
